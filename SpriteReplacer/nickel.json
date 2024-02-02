@@ -1,0 +1,11 @@
+{
+	"UniqueName": "Fayti1703.SpriteReplacer",
+	"Version": "1.0.0",
+	"RequiredApiVersion": "0.6.0-develop",
+	"DisplayName": "Sprite Replacer",
+	"Author": "Fayti1703",
+	"ModType": "Nickel",
+	"LoadPhase": "BeforeGameAssembly",
+	"EntryPointAssembly": "SpriteReplacer.dll",
+	"EntryPointType": "Fayti1703.SpriteReplacer.SpriteReplacer"
+}

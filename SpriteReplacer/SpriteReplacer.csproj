@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="../Paths.props.user" Condition="Exists('../Paths.props.user')" />
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>disable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<RootNamespace>Fayti1703.SpriteReplacer</RootNamespace>
+		<Deterministic>true</Deterministic>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Nickel.ModBuildConfig" Version="0.4.0" />
+		<PackageReference Include="Mono.Cecil" Version="0.11.5" PrivateAssets="all" IncludeAssets="compile" />
+		<PackageReference Include="JetBrains.Annotations" Version="2023.3.0" PrivateAssets="all" IncludeAssets="compile" />
+		<PackageReference Include="Fayti1703.CommonLib" Version="1.2.0" />
+		<PackageReference Include="Fayti1703.CommonLib.Cecil" Version="1.1.0" />
+	</ItemGroup>
+
+</Project>

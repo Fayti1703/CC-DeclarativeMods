@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{22CED42A-3C4C-4282-BB23-2B999492A3F5}"
+ProjectSection(SolutionItems) = preProject
+	Paths.props.user = Paths.props.user
+	LICENSE = LICENSE
+	README.md = README.md
+	Directory.Build.props = Directory.Build.props
+EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpriteReplacer", "SpriteReplacer\SpriteReplacer.csproj", "{0881DF41-191C-4F10-84EF-0120B1B6F80E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0881DF41-191C-4F10-84EF-0120B1B6F80E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0881DF41-191C-4F10-84EF-0120B1B6F80E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0881DF41-191C-4F10-84EF-0120B1B6F80E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0881DF41-191C-4F10-84EF-0120B1B6F80E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
