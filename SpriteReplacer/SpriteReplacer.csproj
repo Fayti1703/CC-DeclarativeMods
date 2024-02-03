@@ -22,4 +22,9 @@
 		<PackageReference Include="Fayti1703.CommonLib.Cecil" Version="1.1.0" />
 	</ItemGroup>
 
+
+	<PropertyGroup>
+		<ModZipPath>$(BaseOutputPath)/$(MSBuildProjectName)-$(Version).zip</ModZipPath>
+	</PropertyGroup>
+
 </Project>
