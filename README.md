@@ -8,8 +8,6 @@ The majority of the required dependencies are declared in the `.csproj`. Perform
 These additional dependencies are required:
 
 * The [Nickel Modloader](https://github.com/Shockah/Nickel)
-  * ***N.B.:*** as of time of writing, you will need to manually compile the `develop` branch due to changes in Nickel.  
-    (this notice will be removed once an appropriate version is released)
   * If your Cobalt Core or Nickel installation path are not in one of the auto-detected directories,
     create a `Path.props.user` with contents like:
     ```xml
